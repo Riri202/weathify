@@ -7,7 +7,7 @@ import FavsList  from './FavsList';
 export  const Input: React.FC<InputProps> = ({setCity, city}) => {
   const [favs, setFavs] = useState(
     [
-        'Berlin',
+        'Berlin', // default favorite list that shows on load
         'London',
         'Tokyo'
     ]

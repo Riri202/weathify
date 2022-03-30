@@ -39,10 +39,6 @@ export interface Temp {
     setTemp: React.Dispatch<React.SetStateAction<number>>;
     temp: number;
     cityName: string
-
-
-
-
   }
   export interface HomeProps {
     setCity: React.Dispatch<React.SetStateAction<string>>;
@@ -52,18 +48,11 @@ export interface Temp {
     setTemp: React.Dispatch<React.SetStateAction<number>>;
     temp: number;
     cityName: string
-
-
-
   }
   export interface WeatherDetailsProps {
     tempData: Temp;
     weatherData: Weather;
     city: string
     cityName: string
-
-
-   
-
   }
   

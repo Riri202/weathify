@@ -3,8 +3,6 @@ import Input from '../components/Input';
 import LargestCities from '../components/LargestCities';
 import { HomeProps } from "../types/types";
 
-// import {FC} from 'react'
-
 
 
 export const Home: React.FC<HomeProps> = ({setCity, city, tempData, cityName, setTemp, temp}) => {
