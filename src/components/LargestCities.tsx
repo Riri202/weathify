@@ -64,7 +64,7 @@ export const  LargestCities: React.FC<LargestCitiesProps> = ({setCity, tempData,
                         {city}
                         </button>
                         </Link>
-                        <button onClick={() => showCityTemp(city)} className='text-red-900 ml-1'><FaAngleDown/></button>
+                        <button onClick={() => showCityTemp(city)} className='text-red-900 ml-4'><FaAngleDown/></button>
                         {city === cityName ?  <p className='text-red-900 text-xl md:text-3xl mt-3'>{temp} ºC</p> : null}
                     </div>
                         <button onClick={() => deleteCities(city)}><FaTimes className='text-red-500 font-bold'/></button>
