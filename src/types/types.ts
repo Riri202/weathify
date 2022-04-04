@@ -48,6 +48,8 @@ export interface Temp {
     setTemp: React.Dispatch<React.SetStateAction<number>>;
     temp: number;
     cityName: string
+    handleSearch?: () => void
+
   }
   export interface WeatherDetailsProps {
     tempData: Temp;
